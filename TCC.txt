@@ -1,0 +1,232 @@
+SOLUÇÕES TECNOLÓGICAS PARA A SEGURANÇA PÚBLICA 
+MARLON DE LIMA CASTRO
+ORIENTADOR: ELIANE MARIA LOIOLA
+
+Caracterização do Problema
+
+Durante as últimas décadas ocorreram grandes avanços na forma como as empresas produzem, armazenam e processam informações. 
+Ocorreram avanços na cultura tecnologica das pessoas e das organizações, que impactou até mesmo nas formas de comunicação existentes.
+Os métodos de processamento computacionais são basicamente os mesmos, alterando-se apenas o formato e
+No que concerne o armazenamento e processamento de dados, as mudanças são notáveis, as empresas passaram a processar volumes de dados armazenados
+cada vez maiores de forma a permitir a extração de informações importantes presentes no meio destes, sem contar o crescente grau de interconectividade 
+entre seus sistemas, que passou a permitir a extração de conhecimento e sua transformação em ações de alto impacto nas organizações.
+
+Assim, tanto o Estado, o Mercado e a Sociedade Civil foram se adaptando à essas mudanças tecnológicas gradativamente.
+
+Porém, apesar dos avanços tecnológicos das últimas décadas, observa-se que ainda há setores importantes que permanecem à margem destes avanços, 
+tais como, a Polícia Militar de Pernambuco.
+
+A Polícia Militar de Pernambuco (PMPE) tem como função a elaboração de estratégias para redução de homicídios e crimes, além da priorização de 
+politicas de combate ao crime organizadom tendo como foco principal a preservação da Ordem pública conforme consta na constituição de 1988 no seu artigo 144 que diz: 
+"A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos:
+
+V - polícias Militares e corpos de bombeiros militares. §5º Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública; aos corpos de bombeiros militares, além das atribuições definidas em lei, incumbe a execução de atividades de defesa civil."
+
+[informar a referência legal]
+[Sugiro informar 1) as competências legais, depois 2) procurar algum plano diretor do Estado para segurança pública]
+
+
+Há enorme cobrança do Estado e da Sociedade neste sentindo. 
+Observa-se que a PMPE faz pouco ou nenhum uso da tecnologia para atingir seus objetivos. 
+Talvez seja melhor:
+Observa-se que a PMPE pode explorar mais o uso da tecnologia para atingir seus objetivos. 
+
+Atualmente, praticamente todos os dados de ocorrências da PMPE são armazenados em papel. 
+O Boletim de Ocorrência (BO) é o documento oficial usado para fazer o registro das ocorrências. O BO é usado pelos órgãos da 
+Polícia Civil, da Polícia Federal, da Polícia Militar do Estados e Distrito Federal, do Corpo de Bombeiro dos Estados e 
+da Guarda Municipal dos Municípios.
+
+Tradicionalmente, as ocorrências conduzidas por um policial militar em Pernambuco são registradas nas delegacias da Polícia Civil, que 
+possui um sistema de registro[explicar qual é]
+CIODS (Centro Integrado de Operações de Defesa Social)
+[explicar aqui o processo - depois será necessário apresentar um pequeno modelo para que todos possam entender - pode usar BPMN)  
+
+[Explicar melhor, o que são Unidades Militares, Batalhão, etc?]
+A equipe da PMPE em serviço ostensivo nas ruas recebe um chamado para  atender uma ocorrência de determinado tipo e em determinado local, 
+ao ser constatado o fato, ambos, vítima e agressor são conduzidos à uma Delegacia da Polícia Civil, diante disso, 
+os policiais militares que atenderam o chamado lavram um BO escrito à mão. 
+Este BO é validado pelo Delegado da Polícia Civil de plantão. 
+Esse processo atualmente leva de duas à cinco horas independentemente do tipo de ocorrência e de acordo com o número de ocorrências na fila. 
+O BO retorna à Unidade Militar de origem que lançou na rua o efetivo policial. 
+Esse Boletim chega no Batalhão (Unidade Militar) onde é feita uma análise manualmente para extrair algumas informações julgadas importantes 
+para serem inseridas em uma planilha eletrônica.
+
+
+O preenchimento manual em papel do BO é trabalhoso e traz inúmeras desvantagens, a saber:
+- a demora em localizar algumas informação, 
+- necessidade de grande volume de espaço físico na sede da PMPE para armazenamento respeitando o prazo legal [qual?]
+- o papel não resite ao tempo e ainda podem ser destruído 
+- impossibilidade de geração de relatórios confiáveis. 
+
+Objetivos e Metas 
+
+Apresentar uma solução tecnológica para tratar as ocorrências policiais da PMPE.
+A solução apresentada permitirá:
+- o armazenamento dos BOs eletronicamente;
+- extração de relatório mais confiáveis relacionados à atuação da PMPE e panorama geral do estado da segurança pública no estado;
+- mais transparência para a sociedade, com a possibilidade da abertura dos dados;
+- redução no tempo de atendimento nas delegacias da Polícia Civil, via integração tecnológica entre a PMPE e Polícia Civil.
+onde os dados podem ser consumidos através de serviços à população bem como possibilitar às organizações de Segurança Pública, todas elas, à filtragem e consulta  para posterior geração de relatórios uteis.
+Organizar as informações em um modelo escalável visando a integração entre sistemas da Policia Militar e Policia Civil possibilitando o acesso facilitado e a redução da demora no atendimento de ocorrências policiais via CIODS[1] nas delegacias.
+Será desenvolvido um Modelo eletrônico de Boletim de Ocorrência acessivel por Autoridades Policiais e outros interessados que desejam consultar, extrair e filtrar dados de ocorrências que são conduzidas para a Delegacia mediante acionamento via CIODS[1].
+ 
+
+Metodologia e Estratégia de ação (máximo de 2 páginas)
+
+Esta pesquisa trata-se de  
+Descrever a metodologia empregada para a execução do projeto e como os objetivos serão alcançados, explicando os métodos que serão utilizados.
+Explique como e que materiais serão usados para resolver o problema.
+
+Para  o alcance dos objetivos propostos por este Projeto primeiramente houve o levantamento de alguns requisitos considerados 
+essenciais mediante pesquisa na forma de entrevista para inicio das atividades. Esta etapa, sendo de suma importância no processo de desenvolvimento, deve ser executada com cautela, pois requisitos mal elencados, que não trazem a real necessidade do cliente, inconsistentes ou incompletos provocam atrasos no processo, acarretando em muito retrabalho e consequentemente aumentando o custo do software (Blaschek 2002, p. 1). Sequencialmente foi elaborado o Modelo Conceitual do problema com auxílio do software BrModelo, com base nas necessidades da corporação. O presente Projeto, pode ser caracterizado como pesquisa exploratória e pode ser classificado tecnicamente como estudo de caso.
+
+Os seguintes softwares serão utilizados para elaborar a solução:
+BPMN: 
+	utilizado para a criação do fluxograma dos processos referentes ao aplicativo desenvolvido. 
+Astah: 
+	Geração do diagrama de classes do projeto.
+BrModelo: 
+	Para geração de modelos conceitual, logico e físico.
+Visual Studio Code:
+	Ferramenta gratuita criada pela Microsoft^(tm), utilizado para a edição do código em linguagem de programação.
+Slim(php): 
+	Micro Framework utilizado para Tratamento de rotas e autenticação 	(API REST).
+Maria DB: 
+	Banco de dados relacional utilizado em pequenos e médios projetos, 	é robusto, possui suporte à transações e permite o armazenamento 	distribuido.
+JMETER:
+	Software utilizado para testes de performance em API’s e web sites, 	permite o teste de carga da aplicação.
+
+
+Objetivos e Metas (máximo de 1 página)
+
+Explicitar os objetivos e metas do projeto, definindo o escopo final a ser obtido. 
+A Criação de um Modelo Base para permitir o armazenamento de ocorrências policiais (BO) de forma eletrônica, 
+onde os dados podem ser consumidos através de serviços à população bem como possibilitar às organizações de Segurança Pública,
+ todas elas, à filtragem e consulta  para posterior geração de relatórios uteis.
+Organizar as informações em um modelo escalável visando a integração entre sistemas da Policia Militar e Policia Civil possibilitando
+ o acesso facilitado e a redução da demora no atendimento de ocorrências policiais via CIODS[1] nas delegacias.
+Será desenvolvido um Modelo eletrônico de Boletim de Ocorrência acessivel por Autoridades Policiais e outros interessados que desejam consultar, extrair e filtrar dados de ocorrências que são conduzidas para a Delegacia mediante acionamento via CIODS[1].
+ 
+
+
+
+Recife, xx de Abril de 2019.
+
+Caracterização do Problema (máximo de 1 página)
+Descrever objetivamente, com o apoio da literatura, o problema. Contextualize o problema e convença o leitor que resolver esse problema é importante.
+Durante as últimas décadas houve diversos avanços na forma como as empresas produzem, armazenam e processam informações. A Cultura em si mudou, até a
+ forma de se comunicar teve seus “avanços”. Os métodos de processamento computacionais são basicamente os mesmos, alterando-se apenas o formato e
+ a quantidade de processamento simultâneo que um sistema de processamento pode fazer.
+	No que concerne ao armazenamento de dados, as mudanças são notáveis, as empresas passaram a processar volumes de dados armazenados
+ cada vez maiores de forma a permitir a extração de informações importantes presentes no meio destes, sem contar o crescente grau de interconectividade 
+entre seus sistemas. Hoje, Organizações com centenas de escritórios dispersos por uma extensa área geográfica podem, com um simples apertar de 
+um botão, examinar o status atual de suas filiais mais remotas (TANEMBAUM, 2003), ou seja, tudo interconectado.
+	Assim, tanto as empresas como Órgãos Públicos foram se adaptando à essas mudanças tecnológicas gradativamente.
+	
+ 
+Objetivos e Metas (máximo de 1 página)
+
+Explicitar os objetivos e metas do projeto, definindo o escopo final a ser obtido. 
+A Criação de um Modelo Base para permitir o armazenamento de ocorrências policiais (BO) de forma eletrônica, onde os dados podem ser consumidos através de serviços à população bem como possibilitar às organizações de Segurança Pública, todas elas, à filtragem e consulta  para posterior geração de relatórios uteis.
+Organizar as informações em um modelo escalável visando a integração entre sistemas da Policia Militar e Policia Civil possibilitando o acesso facilitado e a redução da demora no atendimento de ocorrências policiais via CIODS[1] nas delegacias.
+Será desenvolvido um Modelo eletrônico de Boletim de Ocorrência acessivel por Autoridades Policiais e outros 
+interessados que desejam consultar, extrair e filtrar dados de ocorrências que são conduzidas para a Delegacia mediante acionamento via CIODS[1].
+ 
+
+[1] – CIODS (Centro Integrado de Operações de Defesa Social) 
+Metodologia e Estratégia de ação (máximo de 2 páginas)
+
+Descrever a metodologia empregada para a execução do projeto e como os objetivos serão alcançados, explicando os métodos que serão utilizados.
+Explique como e que materiais serão usados para resolver o problema.
+
+Para  o alcance dos objetivos propostos por este Projeto primeiramente houve o levantamento de alguns requisitos considerados 
+essenciais mediante pesquisa na forma de entrevista para inicio das atividades. Esta etapa, sendo de suma importância no processo de desenvolvimento, deve ser executada com cautela, pois requisitos mal elencados, que não trazem a real necessidade do cliente, inconsistentes ou incompletos provocam atrasos no processo, acarretando em muito retrabalho e consequentemente aumentando o custo do software (Blaschek 2002, p. 1). Sequencialmente foi elaborado o Modelo Conceitual do problema com auxílio do software BrModelo, com base nas necessidades da corporação. O presente Projeto, pode ser caracterizado como pesquisa exploratória e pode ser classificado tecnicamente como estudo de caso.
+
+Os seguintes softwares serão utilizados para elaborar a solução:
+Astah: 
+	Geração do diagrama de classes do projeto.
+BrModelo: 
+	Para geração de modelos conceitual, logico e físico.
+Visual Studio Code:
+	Ferramenta gratuita criada pela Microsoft^(tm), utilizado para a edição do código em linguagem de programação.
+Slim(php): 
+	Micro Framework utilizado para Tratamento de rotas e autenticação 	(API REST).
+Maria DB: 
+	Banco de dados relacional utilizado em pequenos e médios projetos, 	é robusto, possui suporte à transações e permite o armazenamento 	distribuido.
+JMETER:
+	Software utilizado para testes de performance em API’s e web sites, 	permite o teste de carga da aplicação.
+
+
+ 
+Resultados e Impactos Esperados (máximo de 1 página)
+
+Descrever os resultados e/ou produtos esperados. Estimar a repercussão e/ou impactos sócio-econômicos, técnico-científicos ou ambientais dos resultados esperados na solução do problema focalizado.
+A Implementação do Modelo reduzirá o tempo do processo de condução de imputados e vitimas à delegacias, trazendo o efetivo Policial Militar empenhados às ruas de forma que possam atender mais ocorrências novamente.
+Além de permitir consultas aos dados armazenados através de um web service por autoridades para fins diversos, essa centralização das informações facilitará o estudo de todo o ciclo de crimes que acontecem no estado.
+
+
+
+ 
+Conclusões (máximo de 1 página)
+
+Apresente o que se espera de conclusões e contribuições do seu trabalho.
+
+Por meio de todo o processo de implementação deste projeto permitiu-se observar que a organização carece de pessoal capacitado para desenvolver tais ideias. Isso se deve ao principal fato de que os concursos públicos para a área de segurança pública não focam pessoal especializado em TI. Muitos sistemas por vezes são adquiridos através de processos licitatórios, custam caro e de manutenção onerosa, feitas por poucos funcionários da ATI onde também falta pessoal especializado.
+Constatou-se também que o projeto em si resulta de uma ânsia pertencente à  alguns gestores de TI da organização, o qual o debate foge ao escopo deste trabalho.
+
+ 
+Referências Bibliográficas 
+
+Relacionar as obras da literatura citadas, de acordo com as normas da ABNT.
+(Tanenbaum 2003). Tanenbaum, Andrew S. - Redes de Computadores -  Campus, 2003.
+Marciniak (apud GUERRA et al., 2004, p. 31)
+
+
+
+
+ANEXO I
+
+Cronograma de Atividades
+
+Liste as principais atividades a serem desenvolvidas (a partir da seção Metodologia) e apresente-as em um cronograma, relacionando o período de início da atividade e o tempo de duração de acordo com sua previsão de término do TCC. As atividades devem estar inseridas no contexto da monografia, mas não são definidas pelos seus capítulos. Um capítulo pode conter diversas atividades diferentes.
+
+Observe abaixo um exemplo de cronograma:
+
+Atividades:
+1-	Levantamento dos requisitos básicos
+2-	Geração do modelo conceitual do problema
+3-	Geração do modelo logico e físico com algumas retificações
+4-	Criação da base de dados e importação do modelo
+5-	Implementação do Micro Framework Slim 3.2
+6-	Escrita da Monografia
+
+Tabela X. Exemplo de Cronograma das Atividades (20/02 - 20/06)
+	Semanas
+Atividade	1	2	3	4	5	6	7	8	9	10	11	10	13	14	15	16
+1																
+2																
+3																
+4																
+5																
+6																
+
+PROJETO DE FINAL DE CURSO
+
+
+De acordo:
+
+
+												
+Assinatura do Discente
+
+
+
+
+												
+Assinatura do(a) Orientador(a)
+
+
+
+
+Recife: _____ / _____ / _____
+
