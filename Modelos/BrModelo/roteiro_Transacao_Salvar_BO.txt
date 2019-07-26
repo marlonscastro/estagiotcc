@@ -1,8 +1,0 @@
-Roteiro para TRANSAÇÃO (Salvar BO no Banco de Dados)
-
-1º Salvar Efetivo empenhado (Quem logou é Condutor?)
-
-	Prev - Agente já está salvo na base de dados e Rop_num_ocorrencia já fornecido;
-
-	> na table (Agente.Envolv.Rop) Salvar !!... mat, env_id, rop_id ...!!
-2º 
